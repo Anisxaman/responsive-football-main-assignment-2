@@ -96,16 +96,20 @@ body{
    text-decoration: none;
    /* background: linear-gradient( 53deg, #e64343, #ffc116); */
    background-color:#e64343 ;
-   padding: 10px 35px;
+   /* padding: 10px 35px; */
    border-radius: 40px;
    color: white;
-   font-weight: 700;
-   /* box-shadow:2px -1px 17px -3px rgb(0 0 0 / 81%); */
-
+   font-weight: 500;
+  
+    display: block;
    box-shadow:  5px 5px 10px #141227 ,
             -5px -5px 10px #9794c5;
 
-    /* transition: transform 1s ease-out 0.3s; */
+   
+
+ height: 29px;
+ width: 114px;
+
 
 }
 
@@ -113,7 +117,9 @@ body{
 
 .anchor-button:hover{
     background: #141227;
-    transform:scale(2);
+    /* width: 150px; */
+    transform: scale(1.2);
+    display: block;
 }
 
 
