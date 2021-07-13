@@ -82,6 +82,13 @@
     
  }
 
+ .banner-text{
+    height: 230px;
+    width: 485px;   
+    border-radius: nullpx;
+    margin-top: 121px;
+ }
+
  .anchor-button{
     text-decoration: none;
     background: linear-gradient( 53deg, #e64343, #ffc116);
@@ -104,20 +111,153 @@
 
  /* -----------------------------------(main section style starts)---------------------------------> */
 
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:27px ;
+    grid-column-gap:30px ;
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    height: 1977px;
+    width: 1050px;
+}
+
+.player-info img{
+    Width :300px;
+    Height : 256px;
+    top: 747px;
+    margin-bottom: 16px;
+}
+
+.player-info{
+    
+    padding: 15px;
+    width: 330px;
+    height: 474px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-info p{
+    white-space: pre;
+    /* border: 1px solid black; */
+
+}
+
+/* ------------------------------------(Bottom-section starts)------------------------- */
+
+.Bottom-section{
+    width: 1102px;
+    height: 427px;
+    display: flex;align-items: center;
+    margin-top: 165px;
+    margin-right: 156px;
+    margin-left: 210px;
+
+}
+
+.bottom-text{
+    width: 466px;
+    height: 309px;
+    left: 182px;
+    top: 2948px;
+    margin-right: 69px;
+}
+.bottom-text p{
+    white-space: pre;
+}
+
+.bottom-img img{
+    width: 567px;
+    height: 427px;
+    left: 717px;
+    top: 2889px;
+    border-radius: 10px;
+}
 
 
+/* ------------------------------------(Bottom-section endss)------------------------- */
 
 
-
-
-
-  /* -----------------------------------(main section style ends)---------------------------------> */
+  /* -----------------------------------(main section style ends)-----------------------------
+  /
+  /
+  /
+  /
+  --------------------------------------------------------------------------------------------------> */
 
 
 
 /* -------------------------------------(footer section style starts)-------------------------- --> */
 
+footer img{
+height: 110px;
+width: 483.87103271484375px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
 
+
+
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-container{
+    /* padding: 1% 10%; */
+    /* background: #056676; */
+    text-align: center;
+    margin-top: 158px;
+    
+    /* width: 483.87103271484375px; */
+    /* left: 475px; */
+    
+    border-radius: 0px;
+    /* margin-top: 158px; */
+
+    width: 1102px;
+    height: 427px;
+}
+
+
+footer a{
+    color: black;
+    margin: 0 10px;
+}
+
+
+footer p{
+    color:black;
+    margin: 0 10px;
+}
+
+footer a:hover{
+    color:red;
+}
+
+.social-link{
+    text-align: center;
+    display: block
+    margin: 0 20px;
+}
+
+
+.header-text{
+    margin: 30px 0;
+}
+
+.header-text h1{
+   font-size:25px;
+}
 
 
 /* -------------------------------------(footer section style endss)-------------------------- --> */
