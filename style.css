@@ -7,11 +7,11 @@
 
 body{
    font-family: 'Poppins', sans-serif;
-   /* margin-right: 20px; */
+   margin-top: 0;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: center;
+   /* justify-content: center; */
 }
 
 h1{
@@ -120,9 +120,7 @@ p{
 
 .anchor-button{
         text-decoration: none;
-        /* background: linear-gradient( 53deg, #e64343, #ffc116); */
         background-color:#e64343 ;
-        /* padding: 10px 35px; */
         border-radius: 40px;
         color: white;
         font-weight: 500;
@@ -156,6 +154,12 @@ p{
 
 
 /* -----------------------------------(main section style starts)---------------------------------> */
+
+body{
+   display: flex;
+   flex-direction: column;
+   
+}
 .main{
    width: 1440px;
    height: 2639px;
@@ -193,6 +197,7 @@ p{
 .player-info p{
    
    white-space:pre-wrap;
+   margin-right: 20px;
    
 
 }
@@ -383,6 +388,12 @@ footer a:hover{
 
 @media only screen and (max-width: 500px) {
 
+   body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+
 
   
    .nav-menu{
@@ -427,13 +438,20 @@ footer a:hover{
 .banner-image img{
    height: 259.17px;
    width: 329px;
-   /* position: relative; */
-   
-   /* bottom: 61.83px; */
+  
    border-radius: 0px;
    
 }
 
+
+
+
+.anchor-button:hover{
+background: #141227;
+transform: scale(1.2);
+display: block;
+text-align: center;
+}
 
 /* ---------------------------------(main part responsive start)-------------------------------------- */
 main{
@@ -490,13 +508,19 @@ main{
    width: 329px;
    height: 299px;
 
-   padding-right: 10%;
+   /* padding-left:5%; */
+   padding-right:5%;
 
    margin-bottom: 29px;
    font-size: 13px;
    margin-left: 100px;
+   white-space: normal;
 
    /* visibility: hidden; */
+}
+
+.bottom-text p{
+   font-size: 12px;
 }
 .bottom-img{
    width: 328px;
