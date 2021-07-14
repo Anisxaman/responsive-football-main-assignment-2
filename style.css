@@ -41,9 +41,7 @@ p{
 
 
 .header-container{
-    /* padding-left: 156px;
-    padding-top: 42px; */
-    /* padding-right: 124px; */
+    
     width: 1160px;
     height: 549px;
     margin-top: 42px;
@@ -69,7 +67,6 @@ p{
 
 .nav-menu ul{
     display: flex;
-    /* justify-content: space-between; */
     list-style: none;
     margin-left: -40px;
     align-items: center;
@@ -91,7 +88,6 @@ p{
 
 .banner{
     display: flex;
-    /* justify-content: space-between; */
    justify-content: center;
     margin-top: 67px;
     width: 1143.01px;
@@ -119,7 +115,7 @@ p{
 
 .banner-text h1{
     white-space: pre;
-    font-size: 44px;
+    font-size: 37px;
 }
 
 .anchor-button{
