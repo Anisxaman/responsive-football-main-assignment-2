@@ -3,6 +3,8 @@
  
 /*  ------------------------------------------(header section style starts)------------- */
 
+
+
 body{
    font-family: 'Poppins', sans-serif;
    /* margin-right: 20px; */
@@ -12,12 +14,18 @@ body{
    justify-content: center;
 }
 
+h1{
+    font-weight: bolder;
+     font-size: 30px;
+     font-family: 'Headland One', serif;
+}
+
 .header{
    background: #635fa0;
    color: white;
 
    height: 677px;
-   width: 1440px;
+   width: 1439.99px;
    left: 0px;
    top: 0px;
    border-radius: 0px;
@@ -25,10 +33,16 @@ body{
 
 }
 
+
 .header-container{
-    padding-left: 156px;
-    padding-top: 42px;
-    padding-right: 124px;
+    /* padding-left: 156px;
+    padding-top: 42px; */
+    /* padding-right: 124px; */
+    width: 1160px;
+    height: 549px;
+    margin-top: 42px;
+    margin-right: 124px;
+    margin-left: 156px;
 }
 
 
@@ -36,13 +50,13 @@ body{
 
 
 .nav-menu{
-    display: flex;
-    justify-content: space-between;
-    height: 44px;
-   width: 1160px;
-   left: 124px;
-   top: 42px;
-   border-radius: 0px;
+        display: flex;
+        justify-content: space-between;
+        height: 44px;
+        width: 1160px;
+        left: 124px;
+        top: 42px;
+        border-radius: 0px;
    
 
 }
@@ -71,7 +85,13 @@ body{
 
 .banner{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+   justify-content: center;
+    margin-top: 67px;
+    width: 1143.01px;
+    height: 438px;
+    margin-right: 16.99px;
+    
 }
 
 .banner-image img{
@@ -87,11 +107,12 @@ body{
    height: 230px;
    width: 485px;   
    border-radius: nullpx;
-   margin-top: 121px;
+   margin-top: 54px;
 }
 
 .banner-text h1{
     white-space: pre;
+    font-size: 44px;
 }
 
 .anchor-button{
@@ -177,16 +198,17 @@ body{
    align-items: center;
    margin-top: 165px;
    margin-right: 156px;
-   margin-left: 210px;
+   margin-left: 182px;
 
 }
 
 .bottom-text{
    width: 466px;
    height: 309px;
-   /* left: 182px;
-   top: 2948px; */
    margin-right: 69px;
+   margin-top: 56px;
+   margin-left: 0;
+   margin-bottom: 59px;
 }
 .bottom-text p{
    white-space: pre;
@@ -200,6 +222,7 @@ body{
 .bottom-img img{
    width: 567px;
    border-radius: 10px;
+   height: 427px;
    
 }
 
@@ -218,33 +241,39 @@ body{
 
 /* -------------------------------------(footer section style starts)-------------------------- --> */
 
-footer img{
-height: 110px;
-width: 483.87103271484375px;
-left: 0px;
-top: 0px;
-border-radius: 0px;
-
-
-
-
-}
 
 footer{
    display: flex;
    flex-direction: column;
    align-items: center;
    justify-content: center;
+   width: 1440px;
+   height: 434px;
 }
+
+
+footer img{
+height: 110px;
+width: 483.87103271484375px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+
+
+
 
 
 .footer-container{
 
    text-align: center;
-   margin-top: 158px;   
+   margin-top: 158px; 
+   margin-left: 475px;  
+   margin-right: 481.13px;
+   margin-bottom: 63px;
    border-radius: 0px;
-   width: 1102px;
-   height: 427px;
+   width: 483.87px;
+   height: 213px;
 }
 
 
