@@ -367,17 +367,24 @@ footer a:hover{
 /* -------------------------------(Responsive Design starts)----------------------------------*/
 
 
+
+
+/* =====================================(For Mobile)============================== */
+
+@media only screen and (max-width: 1200px){
+
+   /* wotrking good in this ratio */
+
+
+
+}
+
+
+
 @media only screen and (max-width: 500px) {
 
 
-   body{
-      /* display: flex;
-      flex-direction: column; */
-      /* grid-template-columns: repeat(1,1fr); */
-
-      
-   }
-
+  
    .nav-menu{
       width: 322.98px;
       height: 32.88px;
@@ -413,6 +420,7 @@ footer a:hover{
    height: 212px;
    margin-bottom: 50px;
    margin-left: 50px;
+   margin-top: -10px;
 
 }
 
@@ -546,6 +554,9 @@ main{
    position: relative;
    margin-top: 227px;
 }
+
+
+
 
 
 
