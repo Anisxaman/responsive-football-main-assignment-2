@@ -27,7 +27,6 @@ p{
 .header{
    background: #635fa0;
    color: white;
-
    height: 677px;
    width: 1439.99px;
    left: 0px;
@@ -253,8 +252,12 @@ p{
 
 
  .animation-icon{
-    height: 250px;
+   height: 250px;
    width: 400px;
+   text-align: center;
+   position: relative;
+   right: 5%;
+
  }
 
 /* -------------------------------------(footer section style starts)-------------------------- --> */
@@ -361,3 +364,212 @@ footer a:hover{
 /* ----------------------------------(pagination style ends)---------------------------------> */
 
  
+/* -------------------------------(Responsive Design starts)----------------------------------*/
+
+
+@media only screen and (max-width: 500px) {
+
+
+   body{
+      /* display: flex;
+      flex-direction: column; */
+      /* grid-template-columns: repeat(1,1fr); */
+
+      
+   }
+
+   .nav-menu{
+      width: 322.98px;
+      height: 32.88px;
+      display: none;
+   }
+
+   
+   .header{
+      height:695px;
+      width: 360px;
+    
+}
+
+.header-container{
+   width: 329px;
+   height: 600.17px;
+   margin: 33px 16px 61.83px 15px;
+}
+
+
+.banner{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 329px;
+   height: 521.17px;
+   margin-top: 57px;
+   
+}
+
+.banner-text{
+   width: 278px;
+   height: 212px;
+   margin-bottom: 50px;
+   margin-left: 50px;
+
+}
+
+.banner-image img{
+   height: 259.17px;
+   width: 329px;
+   /* position: relative; */
+   
+   /* bottom: 61.83px; */
+   border-radius: 0px;
+   
+}
+
+
+/* ---------------------------------(main part responsive start)-------------------------------------- */
+main{
+   width: 360px;
+   height: 6568px;
+   padding: 47px 14px 0 14px;
+   display: flex;
+   flex-direction: column;
+   
+
+   
+}
+
+.players{
+   width: 332px;
+   height: 5885px;
+   margin-left: 7px;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+.player-info{
+   width: 332px;
+   height: 474px;
+   padding: 15px 15px 33px 15px;
+
+}
+
+.player-info img{
+   height: 300px;
+   width: 256px;
+   margin-bottom: 16px;
+}
+
+.player-text{
+   height: 154px;
+   width: 300px;
+   font-size: 14.5px;
+   /* overflow: hidden; */
+}
+
+.Bottom-section{
+   display: flex;
+   flex-direction: column;
+   width: 360px;
+   height: 636px;
+   padding-top: 60px;
+   margin-top: 636px;
+   margin-left: 7px;
+}
+
+.bottom-text{
+   width: 329px;
+   height: 299px;
+
+   padding-right: 10%;
+
+   margin-bottom: 29px;
+   font-size: 13px;
+   margin-left: 100px;
+
+   /* visibility: hidden; */
+}
+.bottom-img{
+   width: 328px;
+   height: 248px;
+   margin-right: 20px;
+}
+
+
+
+  .bottom-img img {
+      width: 355px;
+      border-radius: 10px;
+      height: 367px;
+
+      margin-top: 40px;
+      margin-right: 17px;
+}
+
+.animation-icon{
+   width:100%;
+   height: 300px;
+
+   margin-top: 120px;
+   margin-bottom: 0;
+   margin-right: 0;
+   margin-left: 0px;
+   position: relative;
+   top: 392px; 
+   
+}
+
+
+.animation-icon img{
+   width: 100%;
+   height: 248px;
+   /* visibility: hidden; */
+   display: none;
+
+}
+
+.footer-container{
+   position: relative;
+   top: 78%;
+}
+
+
+.footer-container img{
+
+   width: 271px;
+   height: 63px;
+}
+
+
+.pagination{
+   position: relative;
+   margin-top: 227px;
+}
+
+
+
+
+
+/* --------------------------------(main part responsive end)-------------------------------------- */
+
+
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* -------------------------------(Responsive Design starts)----------------------------------*/
