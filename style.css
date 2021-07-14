@@ -142,6 +142,7 @@ h1{
     background: #141227;
     transform: scale(1.2);
     display: block;
+    text-align: center;
 }
 
 
@@ -152,7 +153,10 @@ h1{
 
 
 /* -----------------------------------(main section style starts)---------------------------------> */
-
+.main{
+   width: 1440px;
+   height: 2639px;
+}
 .players{
    display: grid;
    grid-template-columns: repeat(3,1fr);
@@ -168,14 +172,14 @@ h1{
 .player-info img{
    Width :300px;
    Height : 256px;
-   top: 747px;
+  
    margin-bottom: 16px;
 }
 
 .player-info{
     text-align: center;
    
-   padding: 15px;
+   padding: 15px 0 15px 15px;
    width: 330px;
    height: 474px;
    background: #FFFFFF;
