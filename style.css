@@ -20,6 +20,10 @@ h1{
      font-family: 'Headland One', serif;
 }
 
+p{
+   color: #52515a;
+}
+
 .header{
    background: #635fa0;
    color: white;
@@ -188,9 +192,14 @@ h1{
 }
 
 .player-info p{
-   white-space: pre;
-   /* border: 1px solid black; */
+   
+   white-space:pre-wrap;
+   
 
+}
+
+.bottom-text p{
+   white-space: pre;
 }
 
 /* ------------------------------------(Bottom-section starts)------------------------- */
